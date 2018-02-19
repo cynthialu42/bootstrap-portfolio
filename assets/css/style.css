@@ -42,6 +42,11 @@
     
   }
   
+  .cyl-nav-items{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 17px;
+  }
   .nav-wrapper{
     display: flex;
     align-items: center;
@@ -97,7 +102,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -113,7 +118,8 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 25px;
     font-weight: bold;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 20px 0px 20px;
+    background: white;
 }
 
 .connect-with-me {
@@ -141,8 +147,19 @@
     border-top: 5px solid #4aaaa5;
 }*/
 
+.footer {
+    background: #666666;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #dddddd;
+    border-top: 5px solid #4aaaa5;
+    height: 60px;
+    padding: 20px;
+}
 
-
+.space {
+    padding: 20px;
+}
 input[type=text]{
     width: 100%;
     padding: 12px 20px;

@@ -1,94 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Cynthia</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./assets">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Cynthia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets">
+        <link rel="stylesheet" href="./assets/css/style.css">
     
 </head>
 <body class="background">
-
-    <!-- Begin Top Navigation -->
-    <div class="header">
-        <div class="header-content">
-            <h1 class="name">Cynthia Lu</h1>
-            <nav class="nav-wrapper">
-                <a class="nav-links" href="./index.html">
-                    <div class="nav-items">About</div>
-                </a>
-                <div class="nav-items">|</div>
-                <a class="nav-links" href="./portfolio.html">
-                    <div class="nav-items">Portfolio</div>
-                </a>
-                <div class="nav-items">|</div>
-                <a class="nav-links" href="./contact.html">
-                    <div class="nav-items">Contact</div>
-                </a>
-            </nav>
-        </div>
-    </div>
-    <!-- End Top Navigation -->
-
-    <div class="content-wrapper">
-        <!-- Begin Contact Form -->
-        <div class="left-column">
-            <h2 class="title">Contact</h2>
-            <hr>
-            <form action="">
-                <fieldset>
-                    <div>
-                        <label class="label">Name</label>
-                    </div>
-                    <div>
-                        <input type="text" />
-                    </div>
-                    <div>
-                        <label class="label">Email</label>
-                    </div>
-                    <div>
-                        <input type="text" />
-                    </div>
-                    <div>
-                        <label class="label">Message</label>
-                    </div>
-                    <div>
-                        <textarea></textarea>
-                    </div>
-                    <div>
-                        <input type="submit"/>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-        <!-- End Contact Form -->
-
-        <!-- Begin Connect with Me Section -->
-        <div class="right-column">
-            <h3 class="connect-with-me">Connect with Me</h3>
-            <hr>
-            <div class="contact-img">
-                <a href="https://www.linkedin.com/in/cynthia-l-b6931459/">
-                    <img class="icon" src="./assets/images/linkedin_icon.png"/>
-                </a>
-                <a href="https://github.com/cynthialu42">
-                    <img class="icon" src="./assets/images/github_icon.png"/>
-                </a>
-                <a href="https://stackoverflow.com/users/9264601/c-lu?tab=profile">
-                    <img class="icon" src="./assets/images/stackoverflow_icon.png"/>
-                </a>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-grey">
+        <div class="container">
+            <a class="navbar-brand name" href="#">Cynthia Lu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link cyl-nav-items" href="./index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link cyl-nav-items" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cyl-nav-items" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link cyl-nav-items" href="#">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cyl-nav-items" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- End Contact Me Section -->
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 space"></div>
+        </div>
+        <div class="row">
+            <div class="col-8 border border-grey">
+                <div class="row">
+                    <div class="col-12 title">
+                        Contact Info
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 bg-white">
+                        <form>
+                            <div class="form-group label">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group label">
+                                <label>Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">I'll use this to sign up for Amazon Prime trials huhuhu</small>
+                            </div>
+                            <div class="form-group label">
+                                <label for="message">Message</label>
+                                <textarea class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary label">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-12 connect-with-me border-top border-right border-left border-grey" >
+                        Connect with Me
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 bg-white border-bottom border-right border-left border-grey">
+                        <div class="contact-img">
+                            <a href="https://www.linkedin.com/in/cynthia-l-b6931459/">
+                                <img class="icon" src="./assets/images/linkedin_icon.png"/>
+                            </a>
+                            <a href="https://github.com/cynthialu42">
+                                <img class="icon" src="./assets/images/github_icon.png"/>
+                            </a>
+                            <a href="https://stackoverflow.com/users/9264601/c-lu?tab=profile">
+                                <img class="icon" src="./assets/images/stackoverflow_icon.png"/>
+                            </a>  
+                        </div> 
+                    </div>
+                </div>
+            </div>  
+        </div>
     </div>
 
-    <!-- Begin Footer -->
-    <footer class="footer">
-        © Copyright 2017 Cynthia Lu
-    </footer>
-    <!-- End Footer -->
+
+    <div class="footer navbar-fixed-bottom">
+        <p>
+            © Copyright 2018 Cynthia Lu
+        </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
